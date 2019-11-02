@@ -1,0 +1,31 @@
+{
+  "black": "#323537",
+  "blackLighten": "#545a5e",
+
+  "white": "#fdfcff",
+  "whiteDarken": "#dee3e5",
+
+  "disabledOnWhite": "#686868",
+  "disabledOnBlack": "#b4b4b4",
+
+  "brand": "#ba3e48",
+
+  "error": "#c61010",
+  "success": "#3eba43",
+
+  "twitter": "#55acee",
+
+  "interactive_2plus": "#75addb",
+  "interactive_1plus": "#558fbe",
+  "interactive": "#246396",
+  "interactive_1minus": "#164063",
+  "interactive_2minus": "#113655",
+
+  "red": "#fc3848",
+  "red_1plus": "#fa707d",
+  "orange": "#ffb86c",
+  "green": "#19f9d8",
+  "blue": "#45a9f9",
+  "purple": "#b084eb",
+  "pink": "#ff9ac1"
+}

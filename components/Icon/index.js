@@ -1,0 +1,1 @@
+export { IconInline } from './Icon'

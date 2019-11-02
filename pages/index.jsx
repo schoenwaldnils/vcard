@@ -92,7 +92,7 @@ export default () => (
           </IconInline>{' '}
           instagram
         </A>
-        , basicly anywhere as <code>schoenwaldnils</code>
+        , basically anywhere as <code>schoenwaldnils</code>
       </P>
     </Card>
   </ViewMain>

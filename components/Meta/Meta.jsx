@@ -31,11 +31,11 @@ export const Meta = ({ url, type, title, description, image }) => {
 }
 
 Meta.defaultProps = {
-  url: 'https://vcard.schoen.world',
+  url: 'https://schoen.world',
   type: 'website',
   title: 'Nils Schönwald',
-  description: 'Change me',
-  image: 'https://schoenwald.media/static/assets/images/icon-on-black.png',
+  description: 'Frontend-Developer',
+  image: 'https://schoen.world/static/assets/images/avatar.png',
 }
 
 Meta.propTypes = {

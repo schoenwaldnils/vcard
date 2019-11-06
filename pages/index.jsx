@@ -11,7 +11,7 @@ import { GoMarkGithub } from 'react-icons/go'
 
 import { Card } from '../components/Card'
 import { Avatar } from '../components/Avatar'
-import { H1, H2, P, A } from '../components/Typo/Typo'
+import { P, A } from '../components/Typo/Typo'
 import { IconInline } from '../components/Icon'
 import { ViewMain } from '../components/ViewMain'
 

@@ -6,7 +6,9 @@ import image224 from './image-224.png'
 import image224x2 from './image-224@2x.png'
 
 const Img = styled.img`
+  box-sizing: content-box;
   border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.avatarBorderColor};
 `
 
 // export const Avatar = props => <Img {...props} src={file} />

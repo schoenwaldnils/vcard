@@ -19,12 +19,14 @@ const themes = {
     textColor: colors.black,
     linkColor: colors.brand,
     backgroundColor: colors.white,
+    avatarBorderColor: colors.brand,
   },
   dark: {
     ...colors,
     textColor: colors.white,
     linkColor: colors.red_1plus,
     backgroundColor: colors.black,
+    avatarBorderColor: colors.white,
   },
 }
 

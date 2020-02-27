@@ -1,13 +1,13 @@
 import styled from '@emotion/styled'
 
 export const H1 = styled.h1`
-  font-size: 2rem;
   margin: 0 0 0.5em;
+  font-size: 2rem;
 `
 
 export const H2 = styled.h2`
-  font-size: 1.5rem;
   margin: 0 0 0.5em;
+  font-size: 1.5rem;
 `
 
 export const P = styled.p`
@@ -16,8 +16,8 @@ export const P = styled.p`
 
 export const A = styled.a`
   position: relative;
-  text-decoration: none;
   color: ${({ theme }) => theme.linkColor};
+  text-decoration: none;
   white-space: nowrap;
 
   ::after {

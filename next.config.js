@@ -1,6 +1,7 @@
 const FilterWarningsPlugin = require('webpack-filter-warnings-plugin')
 
 module.exports = {
+  exportTrailingSlash: true,
   webpack: (config, { dev }) => {
     console.warn(`Enviroment: ${dev ? 'DEVELOPMENT' : 'PRODUCTION'}`)
 

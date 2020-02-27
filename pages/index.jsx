@@ -37,8 +37,8 @@ export default () => (
         <AvatarStyled />
       </AvatarWrapper>
       <P>
-        Hi, my name is <u>Nils Schönwald</u>. I am a frontend developer based in
-        Hamburg. Formerly working for{' '}
+        Hi, my name is <strong>Nils Schönwald</strong>. I am a frontend
+        developer based in Hamburg. Formerly working for{' '}
         <A href="https://twitter.com/finanzcheck_de" target="ffg">
           @finanzcheck_de
         </A>{' '}

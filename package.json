@@ -29,38 +29,35 @@
   },
   "homepage": "https://github.com/schoenwaldnils/vcard#readme",
   "dependencies": {
-    "@emotion/cache": "10.0.27",
-    "@emotion/core": "10.0.27",
+    "@emotion/cache": "10.0.29",
+    "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
     "babel-plugin-inline-react-svg": "1.1.1",
     "cli-real-favicon": "0.0.8",
     "emotion-theming": "10.0.27",
-    "file-loader": "5.1.0",
-    "html-react-parser": "0.10.1",
-    "next": "9.2.2",
+    "file-loader": "6.0.0",
+    "html-react-parser": "0.10.5",
+    "next": "9.4.4",
     "prop-types": "^15.7.2",
-    "raw-loader": "4.0.0",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "react-icons": "3.9.0",
-    "url-loader": "3.0.0",
-    "webpack-filter-warnings-plugin": "1.2.1"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "3.10.0",
+    "url-loader": "4.1.0"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.1.0",
     "eslint-config-schoenwaldnils": "3.0.2",
-    "htmlhint": "^0.11.0",
-    "husky": "4.2.3",
-    "lint-staged": "10.0.8",
-    "prettier": "1.19.1",
-    "stylelint": "13.2.0",
+    "htmlhint": "0.13.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.7",
+    "prettier": "2.0.5",
+    "stylelint": "13.5.0",
     "stylelint-config-schoenwaldnils": "3.0.0"
   },
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
-      "stylelint --formatter verbose",
-      "git add"
+      "stylelint --formatter verbose"
     ]
   },
   "husky": {

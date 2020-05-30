@@ -17,7 +17,6 @@ class CustomHead extends Head {
         return null
       }
       if (node && node.props && node.props.children) {
-        console.log(node.props.children)
         return {
           ...node,
           props: {

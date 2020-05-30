@@ -37,8 +37,7 @@ export default () => (
         <AvatarStyled />
       </AvatarWrapper>
       <P>
-        Hi, my name is <strong>Nils Schönwald</strong>. I am a frontend
-        developer based in Hamburg. Formerly working for{' '}
+        Hi, my name is <strong>Nils Schönwald</strong>. I formerly worked for{' '}
         <A href="https://twitter.com/finanzcheck_de" target="ffg">
           @finanzcheck_de
         </A>{' '}
@@ -48,7 +47,15 @@ export default () => (
         </A>
         .
       </P>
-      <P>Currently open for freelance work in Hamburg or remote.</P>
+      <P>
+        I love to work with CSS, React, Javascript, Next.js, Contentful, etc.
+      </P>
+      <P>
+        I currently am looking for a position as a{' '}
+        <strong>Frontend&nbsp;Developer</strong> based in Hamburg or remote.
+        <br />
+        You have or know about such a position? Let&apos;s chat!
+      </P>
       <P>
         You can find me on{' '}
         <A href="https://twitter.com/schoenwaldnils" target="twitter">

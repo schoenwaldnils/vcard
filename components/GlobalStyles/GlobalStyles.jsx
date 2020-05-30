@@ -31,10 +31,10 @@ const globalStyles = (theme = {}) => css`
     @media (min-width: 768px) {
       font-size: 24px;
     }
+  }
 
-    @media (min-width: 1200px) {
-      font-size: 28px;
-    }
+  strong {
+    font-weight: 600;
   }
 
   img {

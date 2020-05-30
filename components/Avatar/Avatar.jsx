@@ -11,8 +11,6 @@ const Img = styled.img`
   border: 2px solid ${({ theme }) => theme.avatarBorderColor};
 `
 
-// export const Avatar = props => <Img {...props} src={file} />
-
 export const Avatar = props => (
   <picture>
     <source

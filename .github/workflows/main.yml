@@ -13,8 +13,10 @@ jobs:
       - uses: actions/setup-node@v1
       - name: npm install
         run: npm ci
-      - name: lint js
-        run: npm run lint:js
+      - name: lint types
+        run: npm run lint:types
+      - name: lint ts
+        run: npm run lint:ts
       - name: lint css
         run: npm run lint:css
       - name: export

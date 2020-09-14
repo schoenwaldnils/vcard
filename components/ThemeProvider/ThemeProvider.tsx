@@ -8,6 +8,7 @@ const themeVars = (theme: Theme) => {
   })
 
   return css`
+    /* stylelint-disable */
     :root {
       ${vars.join('')}
     }

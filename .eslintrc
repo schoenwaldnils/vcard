@@ -1,3 +1,6 @@
 {
-  "extends": "eslint-config-schoenwaldnils"
+  "extends": "@schoenwald/eslint-config-typescript",
+  "rules": {
+    "typescript-eslint/indent": 0
+  }
 }

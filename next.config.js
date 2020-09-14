@@ -1,5 +1,6 @@
+/* tslint:disable */
 module.exports = {
-  exportTrailingSlash: true,
+  trailingSlash: true,
   webpack: (config, { dev }) => {
     console.warn(`Enviroment: ${dev ? 'DEVELOPMENT' : 'PRODUCTION'}`)
 

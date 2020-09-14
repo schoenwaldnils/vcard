@@ -24,20 +24,25 @@ const AvatarStyled = styled(Avatar)`
     filter: saturate(75%);
   }
 `
-const AvatarWrapper = styled.div`
+const AvatarWrapper = styled.header`
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2rem;
 `
 
-export default () => (
+const Index = () => (
   <ViewMain>
     <Card>
       <AvatarWrapper>
         <AvatarStyled />
       </AvatarWrapper>
       <P>
-        Hi, my name is <strong>Nils Schönwald</strong>. I formerly worked for{' '}
+        Hi, my name is <strong>Nils Schönwald</strong>. I&apos;m a{' '}
+        <strong>Frontend&nbsp;Developer</strong> based in Hamburg working at{' '}
+        <A href="https://twitter.com/cellular" target="cellular">
+          @cellular
+        </A>
+        . Formerly with{' '}
         <A href="https://twitter.com/finanzcheck_de" target="ffg">
           @finanzcheck_de
         </A>{' '}
@@ -48,14 +53,15 @@ export default () => (
         .
       </P>
       <P>
-        I love to work with CSS, React, Javascript, Next.js, Contentful, etc.
+        I love to work with CSS, React, Typescript, Javascript, Next.js,
+        Contentful, etc.
       </P>
-      <P>
+      {/* <P>
         I currently am looking for a position as a{' '}
         <strong>Frontend&nbsp;Developer</strong> based in Hamburg or remote.
         <br />
         You have or know about such a position? Let&apos;s chat!
-      </P>
+      </P> */}
       <P>
         You can find me on{' '}
         <A href="https://twitter.com/schoenwaldnils" target="twitter">
@@ -104,3 +110,5 @@ export default () => (
     </Card>
   </ViewMain>
 )
+
+export default Index

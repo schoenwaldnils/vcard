@@ -16,7 +16,7 @@ export const P = styled.p`
 
 export const A = styled.a`
   position: relative;
-  color: ${({ theme }) => theme.linkColor};
+  color: var(--linkColor);
   text-decoration: none;
   white-space: nowrap;
 

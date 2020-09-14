@@ -9,4 +9,4 @@ const View = styled.div`
   min-height: 100vh;
 `
 
-export const ViewMain = props => <View {...props} />
+export const ViewMain = (props) => <View {...props} />

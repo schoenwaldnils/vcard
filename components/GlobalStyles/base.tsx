@@ -1,6 +1,6 @@
 import { css } from '@emotion/core'
 
-export default (theme = {}) => css`
+export default () => css`
   *,
   *::before,
   *::after {
@@ -14,9 +14,9 @@ export default (theme = {}) => css`
     -moz-osx-font-smoothing: grayscale;
     font-weight: 300;
     line-height: 1.5;
-    color: ${theme.textColor};
+    color: var(--textColor);
     text-rendering: optimizeLegibility;
-    background-color: ${theme.backgroundColor};
+    background-color: var(--backgroundColor);
 
     @media (min-width: 600px) {
       font-size: 20px;

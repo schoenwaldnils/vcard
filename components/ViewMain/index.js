@@ -1,1 +1,0 @@
-export { ViewMain } from './ViewMain'

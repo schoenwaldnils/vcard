@@ -38,11 +38,11 @@ const Index = () => (
       </AvatarWrapper>
       <P>
         Hi, my name is <strong>Nils Schönwald</strong>. I&apos;m a{' '}
-        <strong>Frontend&nbsp;Developer</strong> based in Hamburg working at{' '}
+        <strong>Frontend&nbsp;Developer</strong> based in Hamburg. Formerly with{' '}
         <A href="https://twitter.com/cellular" target="cellular">
           @cellular
         </A>
-        . Formerly with{' '}
+        {', '}
         <A href="https://twitter.com/finanzcheck_de" target="ffg">
           @finanzcheck_de
         </A>{' '}
@@ -56,12 +56,12 @@ const Index = () => (
         I love to work with CSS, React, Typescript, Javascript, Next.js,
         Contentful, etc.
       </P>
-      {/* <P>
+      <P>
         I currently am looking for a position as a{' '}
         <strong>Frontend&nbsp;Developer</strong> based in Hamburg or remote.
         <br />
         You have or know about such a position? Let&apos;s chat!
-      </P> */}
+      </P>
       <P>
         You can find me on{' '}
         <A href="https://twitter.com/schoenwaldnils" target="twitter">

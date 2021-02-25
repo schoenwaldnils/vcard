@@ -1,18 +1,18 @@
-import React from 'react'
 import styled from '@emotion/styled'
+import React from 'react'
 import {
-  FaTwitter,
   FaCodepen,
-  FaLinkedinIn,
-  FaXing,
   FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaXing,
 } from 'react-icons/fa'
 import { GoMarkGithub } from 'react-icons/go'
 
-import { Card } from '../components/Card'
 import { Avatar } from '../components/Avatar'
-import { P, A } from '../components/Typo/Typo'
+import { Card } from '../components/Card'
 import { IconInline } from '../components/Icon'
+import { A, P } from '../components/Typo/Typo'
 import { ViewMain } from '../components/ViewMain'
 
 const AvatarStyled = styled(Avatar)`
@@ -30,15 +30,20 @@ const AvatarWrapper = styled.header`
   margin-bottom: 2rem;
 `
 
+const lookingForWork = false
+
 const Index = () => (
   <ViewMain>
     <Card>
       <AvatarWrapper>
         <AvatarStyled />
       </AvatarWrapper>
+
       <P>
-        Hi, my name is <strong>Nils Schönwald</strong>. I&apos;m a{' '}
-        <strong>Frontend&nbsp;Developer</strong> based in Hamburg. Formerly with{' '}
+        Hi, my name is <strong>Nils Schönwald</strong>.
+        <br />
+        I&apos;m a <strong>Freelance Frontend&nbsp;Developer</strong> based in
+        Hamburg. Formerly with{' '}
         <A href="https://twitter.com/cellular" target="cellular">
           @cellular
         </A>
@@ -52,37 +57,42 @@ const Index = () => (
         </A>
         .
       </P>
+
       <P>
         I love to work with CSS, React, Typescript, Javascript, Next.js,
         Contentful, etc.
       </P>
-      <P>
-        I currently am looking for a position as a{' '}
-        <strong>Frontend&nbsp;Developer</strong> based in Hamburg or remote.
-        <br />
-        You have or know about such a position? Let&apos;s chat!
-      </P>
+
+      {lookingForWork && (
+        <P>
+          I currently am looking for a position as a{' '}
+          <strong>Frontend&nbsp;Developer</strong> based in Hamburg or remote.
+          <br />
+          You have or know about such a position? Let&apos;s chat!
+        </P>
+      )}
+
       <P>
         You can find me on{' '}
         <A href="https://twitter.com/schoenwaldnils" target="twitter">
           <IconInline>
             <FaTwitter />
           </IconInline>{' '}
-          twitter
+          Twitter
         </A>
         ,{' '}
         <A href="https://codepen.io/schoenwaldnils" target="codepen">
           <IconInline>
             <FaCodepen />
           </IconInline>{' '}
-          codepen
+          Codepen
         </A>
         ,{' '}
         <A href="https://github.com/schoenwaldnils" target="github">
           <IconInline>
             <GoMarkGithub />
           </IconInline>{' '}
-          github
+          Github
         </A>
         ,{' '}
         <A href="https://www.linkedin.com/in/schoenwaldnils/" target="linkedin">
@@ -103,7 +113,7 @@ const Index = () => (
           <IconInline>
             <FaInstagram />
           </IconInline>{' '}
-          instagram
+          Instagram
         </A>
         , basically anywhere as <code>schoenwaldnils</code>
       </P>

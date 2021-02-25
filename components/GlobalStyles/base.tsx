@@ -1,6 +1,6 @@
 import { css } from '@emotion/core'
 
-export default () => css`
+const BaseStyles = () => css`
   *,
   *::before,
   *::after {
@@ -8,7 +8,18 @@ export default () => css`
   }
 
   html {
-    font-family: 'Open Sans', sans-serif;
+    /* prettier-ignore */
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Helvetica,
+      Arial,
+      sans-serif,
+      'Apple Color Emoji',
+      'Segoe UI Emoji',
+      'Segoe UI Symbol';
+
     font-size: 16px;
     -webkt-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -36,3 +47,5 @@ export default () => css`
     height: auto;
   }
 `
+
+export default BaseStyles

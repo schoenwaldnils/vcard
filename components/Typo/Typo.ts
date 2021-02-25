@@ -26,7 +26,7 @@ export const A = styled.a`
     top: 100%;
     left: 0;
     width: 100%;
-    height: 0.125em;
+    height: 0.1em;
     background-color: currentColor;
     transform: scaleX(0);
     transition: transform 150ms;

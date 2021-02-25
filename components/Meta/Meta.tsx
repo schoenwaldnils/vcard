@@ -1,10 +1,23 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import Head from 'next/head'
+import { FC } from 'react'
 
 import { Favicons } from '../Favicons'
 
-export const Meta = ({ url, type, title, description, image }) => {
+type Props = {
+  url?: string
+  type?: string
+  title?: string
+  description?: string
+  image?: string
+}
+
+export const Meta: FC<Props> = ({
+  url = 'https://schoen.world',
+  type = 'website',
+  title = 'Nils Schönwald',
+  description = 'Frontend-Developer',
+  image = 'https://schoen.world/static/assets/images/avatar.png',
+}) => {
   return (
     <Head>
       <meta content="width=device-width,initial-scale=1" name="viewport" />
@@ -28,20 +41,4 @@ export const Meta = ({ url, type, title, description, image }) => {
       <Favicons />
     </Head>
   )
-}
-
-Meta.defaultProps = {
-  url: 'https://schoen.world',
-  type: 'website',
-  title: 'Nils Schönwald',
-  description: 'Frontend-Developer',
-  image: 'https://schoen.world/static/assets/images/avatar.png',
-}
-
-Meta.propTypes = {
-  url: PropTypes.string,
-  type: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
 }

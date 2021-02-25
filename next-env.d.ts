@@ -2,6 +2,6 @@
 /// <reference types="next/types/global" />
 
 declare module '*.webp' {
-  const value: any
+  const value: string
   export default value
 }

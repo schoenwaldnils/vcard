@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import { FC } from 'react'
 import {
   FaCodepen,
   FaInstagram,
@@ -32,7 +32,7 @@ const AvatarWrapper = styled.header`
 
 const lookingForWork = false
 
-const Index = () => (
+const Index: FC = () => (
   <ViewMain>
     <Card>
       <AvatarWrapper>

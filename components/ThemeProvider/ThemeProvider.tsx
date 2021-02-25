@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { css, Global, Theme } from '@emotion/react'
 
 const themeVars = (theme: Theme) => {

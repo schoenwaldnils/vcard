@@ -1,6 +1,5 @@
-/* eslint-disable max-classes-per-file */
-import React from 'react'
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main } from 'next/document'
+import { ReactElement } from 'react'
 
 class CustomHead extends Head {
   render() {
@@ -39,7 +38,7 @@ class CustomHead extends Head {
 }
 
 export default class MyDocument extends Document {
-  render() {
+  render(): ReactElement {
     return (
       <Html>
         <CustomHead />

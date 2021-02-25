@@ -1,17 +1,17 @@
-import React from 'react'
 import NextApp from 'next/app'
+import { ReactElement } from 'react'
 
 import { GlobalStyles } from '../components/GlobalStyles'
 import { Meta } from '../components/Meta'
-import { themes } from '../data/themes'
 import { ThemeProvider } from '../components/ThemeProvider'
+import { themes } from '../data/themes'
 
 class Vcard extends NextApp {
-  componentDidCatch(error, info) {
+  componentDidCatch(error: Error, info: unknown): void {
     console.error(this, error, info)
   }
 
-  render() {
+  render(): ReactElement {
     const { Component } = this.props
 
     const currentTheme = 'dark' // TODO: make ma editable

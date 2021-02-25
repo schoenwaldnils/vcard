@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import { FC, ImgHTMLAttributes } from 'react'
+
 import image128 from './image-128.webp'
 import image128x2 from './image-128@2x.webp'
 import image224 from './image-224.webp'
@@ -11,7 +12,7 @@ const Img = styled.img`
   border-radius: 50%;
 `
 
-export const Avatar = (props: any) => (
+export const Avatar: FC<ImgHTMLAttributes<HTMLImageElement>> = (props) => (
   <picture>
     <source
       srcSet={`${image224}, ${image224x2} 2x`}

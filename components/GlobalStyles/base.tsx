@@ -1,6 +1,6 @@
-import { css } from '@emotion/react'
+import { css, SerializedStyles } from '@emotion/react'
 
-const BaseStyles = () => css`
+const BaseStyles = (): SerializedStyles => css`
   *,
   *::before,
   *::after {

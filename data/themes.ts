@@ -1,4 +1,4 @@
-import { Theme } from '@emotion/core'
+import { Theme } from '@emotion/react'
 import colors from './colors.json'
 
 export const themes: { light: Theme; dark: Theme } = {

@@ -1,6 +1,9 @@
 {
   "extends": "@schoenwald/eslint-config-typescript",
   "rules": {
-    "typescript-eslint/indent": 0
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-extra-semi": 0,
+    "@typescript-eslint/indent": 0
   }
 }

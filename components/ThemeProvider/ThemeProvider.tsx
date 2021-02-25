@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { css, Global, Theme } from '@emotion/core'
+import { css, Global, Theme } from '@emotion/react'
 
 const themeVars = (theme: Theme) => {
   const vars = Object.keys(theme).map((key) => {

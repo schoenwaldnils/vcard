@@ -1,5 +1,3 @@
-// import { CacheProvider } from '@emotion/core'
-// import createCache from '@emotion/cache'
 import React from 'react'
 import NextApp from 'next/app'
 
@@ -10,8 +8,7 @@ import { ThemeProvider } from '../components/ThemeProvider'
 
 class Vcard extends NextApp {
   componentDidCatch(error, info) {
-    // eslint-disable-next-line no-console
-    console.log(this, error, info)
+    console.error(this, error, info)
   }
 
   render() {
@@ -20,14 +17,12 @@ class Vcard extends NextApp {
     const currentTheme = 'dark' // TODO: make ma editable
 
     return (
-      // <CacheProvider value={vcardCache}>
       <>
         <Meta />
         <ThemeProvider theme={themes[currentTheme]} />
         <GlobalStyles />
         <Component />
       </>
-      // </CacheProvider>
     )
   }
 }
